@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "first_name": "Suellen",
+    "last_name": "Doumer",
+    "email": "sdoumer0@zimbio.com",
+    "gender": "Female",
+    "telefono": 6,
+    "password": "tO5~(j|f+#o39",
+    "role": "Estimator",
+    "country": "Bulgaria"
+  },
+  {
+    "id": 2,
+    "first_name": "Klemens",
+    "last_name": "Matei",
+    "email": "kmatei1@nature.com",
+    "gender": "Non-binary",
+    "telefono": 10,
+    "password": "dI6|mlO$qHQ9",
+    "role": "Construction Manager",
+    "country": "Sweden"
+  },
+  {
+    "id": 3,
+    "first_name": "Arvie",
+    "last_name": "MacAnespie",
+    "email": "amacanespie2@blogtalkradio.com",
+    "gender": "Agender",
+    "telefono": 6,
+    "password": "zC4\"xy$xs*k)Hx",
+    "role": "Project Manager",
+    "country": "Mexico"
+  },
+  {
+    "id": 4,
+    "first_name": "Koral",
+    "last_name": "Beddoe",
+    "email": "kbeddoe3@sina.com.cn",
+    "gender": "Female",
+    "telefono": 1,
+    "password": "gC7}??T.NsVZBX",
+    "role": "Construction Foreman",
+    "country": "South Africa"
+  },
+  {
+    "id": 5,
+    "first_name": "Helyn",
+    "last_name": "Shank",
+    "email": "hshank4@nydailynews.com",
+    "gender": "Female",
+    "telefono": 1,
+    "password": "nJ7_ge`+Fn",
+    "role": "Electrician",
+    "country": "China"
+  },
+  {
+    "id": 6,
+    "first_name": "Elsworth",
+    "last_name": "Burgoine",
+    "email": "eburgoine5@disqus.com",
+    "gender": "Male",
+    "telefono": 4,
+    "password": "wP8\\5?n~&n",
+    "role": "Architect",
+    "country": "Brazil"
+  },
+  {
+    "id": 7,
+    "first_name": "Fanchette",
+    "last_name": "Simoens",
+    "email": "fsimoens6@cbsnews.com",
+    "gender": "Female",
+    "telefono": 9,
+    "password": "wJ1?R2vd",
+    "role": "Supervisor",
+    "country": "Indonesia"
+  },
+  {
+    "id": 8,
+    "first_name": "Elysha",
+    "last_name": "Keesman",
+    "email": "ekeesman7@scribd.com",
+    "gender": "Female",
+    "telefono": 4,
+    "password": "hD9!XTnW`e",
+    "role": "Subcontractor",
+    "country": "Brazil"
+  },
+  {
+    "id": 9,
+    "first_name": "Pia",
+    "last_name": "Cusick",
+    "email": "pcusick8@php.net",
+    "gender": "Female",
+    "telefono": 3,
+    "password": "nW1@`QJkrSS",
+    "role": "Supervisor",
+    "country": "Tunisia"
+  },
+  {
+    "id": 10,
+    "first_name": "Brooke",
+    "last_name": "Haquin",
+    "email": "bhaquin9@tripadvisor.com",
+    "gender": "Male",
+    "telefono": 7,
+    "password": "wD7\\dbK~~37x%Vhp",
+    "role": "Construction Worker",
+    "country": "South Korea"
+  },
+  {
+    "id": 11,
+    "first_name": "David",
+    "last_name": "Segura",
+    "email": "david182_segura@hotmail.com",
+    "gender": "Male",
+    "telefono": 3118194120,
+    "password": "trendboutique",
+    "role": "Designer",
+    "country": "Colombia"
+  },
+  {
+    "id": 12,
+    "first_name": "David",
+    "last_name": "Segura",
+    "email": "perritos123@otulook.com",
+    "telefono": "123456",
+    "password": "aaaaaaaa",
+    "role": "Publicista",
+    "country": "Bogotá",
+    "image": "user-1695861429161.jpg"
+  },
+  {
+    "id": 13,
+    "first_name": "David",
+    "last_name": "Segura",
+    "email": "perritos@outlook.com",
+    "telefono": "123456",
+    "password": "$2a$10$fN64ZzEBNTgUTkrXrGoocela7QwcYCiXPXlYOcv9Ki4.FIA7J5ApG",
+    "role": "Publicista",
+    "country": "Bogotá",
+    "image": "user-1695864686651.jpg"
+  },
+  {
+    "id": 14,
+    "first_name": "Guillermo",
+    "last_name": "Infiltrado",
+    "email": "infiltrado@gmail.com",
+    "telefono": "3123456789",
+    "password": "$2a$10$X5lGVrjt1JxOxVfYNV2cB./s.JgqkE7oFif4dcV7s7XLfx2CwAY42",
+    "role": "Profesor",
+    "country": "Medellin",
+    "image": "user-1695867480857.png"
+  },
+  {
+    "id": 15,
+    "first_name": "David",
+    "last_name": "Segura",
+    "email": "asd@hotmail.com",
+    "telefono": "123456",
+    "role": "Publicista",
+    "country": "Bogotá",
+    "image": "user-1695947227569.png"
+  },
+  {
+    "id": 16,
+    "first_name": "David",
+    "last_name": "Segura",
+    "email": "asd@hotmail.com",
+    "telefono": "123456",
+    "password": "$2a$10$5feSqIYKRjg4YB8FY5bqxu75iCyCYyyY9m.u/zYg/o5Dt30r8Z4Xu",
+    "role": "Publicista",
+    "country": "Bogotá",
+    "image": "user-1695950705199.png"
+  },
+  {
+    "id": 17,
+    "first_name": "Guillermo",
+    "last_name": "Betancur",
+    "email": "guibetancur@gmail.com",
+    "telefono": "3207694199",
+    "password": "$2a$10$yV/9HAEQmpV2ZXg3qsyKL.wep2NwON5o6nEs2NVMx5ERmjw9AQUaC",
+    "role": "Desarrollador LAN",
+    "country": "Medellín",
+    "image": "user-1696013117731.jpg",
+    "perfil": 1
+  },
+  {
+    "id": 18,
+    "first_name": "Ernesto",
+    "last_name": "Segura",
+    "email": "davidseguraprueba@gmail.com",
+    "telefono": "123456",
+    "password": "$2a$10$0u2s15zNTGwcBWtr0uoEKOoBZUhC5YX0KxtWj3aYPZAQyfVY1drc.",
+    "role": "Profesor",
+    "country": "Medellin",
+    "image": "user-1696040355513.png",
+    "perfil": 1
+  },
+  {
+    "id": 19,
+    "first_name": "David",
+    "last_name": "Alcalde",
+    "email": "pruebaDavidA@gmail.com",
+    "telefono": "1234567",
+    "password": "$2a$10$cABkjlfRQId5opc1giwYPeNc0pXuos6OEpAjxpKS2scdo1Yguw/cq",
+    "role": "Laquetede",
+    "country": "Medellin",
+    "image": "user-1696109533836.jpg"
+  }
+]

@@ -1,0 +1,48 @@
+<header class="main-header">
+  <div class="main-header-top-bar">
+    <div>
+      <img class="logo" src="/images/logo-trend-boutique.svg" alt="Logo Trend Boutique"
+        style="width: 150px; height: 100px" />
+    </div>
+    <form action="/search" method="get">
+
+      <div class="search-bar">
+        <button class="search-button" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input name="search" class="search-products" type="text" placeholder="Encontrar Productos" />
+      </div>
+    </form>
+    <div class="user">
+      <ul>
+        <% //if(locals.user) { %>
+        <!-- <h1><%= locals.user %></h1> -->
+          
+          <li> <a href="#"></a></li>
+          <li><img class="avatar" src="/images/users/<%= locals.user.image %>" alt=""></li>
+          <% //} else { %>
+            <li><a href="/login"></a></li>
+            <li><a href="/registro"></a></li>
+            <% //}%>
+      </ul>
+    </div>
+  </div>
+
+  <nav class="navigation-bar">
+    <ul class="left-navbar">
+      <li class="home"><a href="/">Home</a></li>
+      <% if(!locals.user) { %>
+        <li class="login"><a href="/login">Login</a></li>
+        <li class="register"><a href="/register">Regístrate</a></li>
+        <% } else { %>
+          <li> <a href="/logout">Cerrar Sesión</a> </li>
+          <% }%>
+            <% if (locals.user.role==1) {%>
+              <li><a href="/admin">Administrar</a></li>
+              <% }%>
+                <li class="car">
+                  <a href="/carrito"><i class="fas fa-cart-shopping"></i></a>
+                </li>
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Producto</title>
+    <link rel="stylesheet" href="/css/stylesCreate.css">
+    <link rel="stylesheet" type="text/css" href="/css/stylesValidators.css">
+</head>
+<body>
+    <!-- ERRORES FRONT -->
+  <div class="errores">
+    <ul></ul>
+  </div> 
+  <br>
+    <h1>Crear Producto</h1>
+
+    <form class="create" action="/admin/create" method="POST" enctype="multipart/form-data" >
+        <main class="main">
+            <div class="column1">
+                <label for="name">Nombre:</label>
+                <input class="errores" type="text" id="name" name="name"><br><br>
+
+                <label for="description">Descripción:</label>
+                <input class="errores" type="text" id="description" name="description"><br><br>
+
+                <label for="price">Precio:</label>
+                <input type="number" id="price" name="price"><br><br>
+
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity">
+
+                <label for="descuento">Descuento:</label>
+                <input type="number" id="descuento" name="descuento">                
+            </div>
+
+            <div class="column2">                
+                <label for="size">Talla:</label>
+                <input type="text" id="size" name="size"><br><br>
+
+                <label for="color">Color:</label>
+                <input type="text" id="color" name="color"><br><br>
+            </div>
+
+            <div>
+                <label for="idcategory">Categoría:</label>
+                <select id="idcategory" name="idcategory">
+                    <option value=1>Sport</option>
+                    <option value=2>Casual</option>
+                    <option value=3>Formal</option>
+                </select>
+                <br><br>
+
+                <label for="image">Imagen:</label>
+                <input class="errores" type="file" id="image" name="image" accept="image/*">
+                <!--<input type="text" id="image" name="image" value="" required hidden>-->
+            </div>
+        </main>
+        <div>
+            <button type="submit" id="crear">Crear Producto</button>
+            <button type="delete" id="eliminar">Eliminar Producto</button>
+        </div>
+    </form> 
+    <script src="/js/createValidators.js"></script> 
+</body>
+</html>
+
+<script>
+    document.getElementById('imageSelect').onchange = function () {
+        document.getElementById('image').value = document.getElementById('imageSelect').files[0].name;
+    }
+   </script>
